@@ -13,7 +13,9 @@ function wtf() {
             res += 'Куплет'
          } else if (text[i] === 'Куплет 3') {
             res += 'Куплет'
-         }
+         } else {
+            res += text[i];
+        }
     }
     
     document.getElementById('output').innerText = res;
